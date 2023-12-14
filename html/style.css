@@ -1,0 +1,61 @@
+/* style.css */
+
+body {
+    background: url('parking_background.png') center/cover fixed no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #1e90ff;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end; /* Align the navigation items to the right end */
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.status-info,
+.reservation-form {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with reduced opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.status-info h2,
+.reservation-form h2 {
+    color: #1e90ff; /* Adjusted text color for better visibility */
+}
+
+.reservation-form form {
+    color: #1e90ff; /* Adjusted form text color for better visibility */
+}
